@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Museu Nacional</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="index.html">Museu Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="./assets/img/museu.png" alt="Interior de um Museu">
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="./assets/img/depoimento.png" alt="Depoimento de uma pessoa">
+                </section>
+                <section id="visitas">
+                    <h4>Faça uma visita.</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input type="text" name="data" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Quantidade</label>
+                            <input type="text" name="qtd" id="qtd" value="1">
+                        </fieldset>
+                        <input type="submit" name="submit" id="enviar" value="Verificar disponibilidade ">
+                    </form>
+                </section>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
